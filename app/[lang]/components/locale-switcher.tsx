@@ -7,6 +7,8 @@ import { i18n } from '@/i18n.config'
 
 export default function LocaleSwitcher() {
   const pathName = usePathname()
+ 
+
 
   const redirectedPathName = (locale: string) => {
     if (!pathName) return '/'
@@ -14,6 +16,7 @@ export default function LocaleSwitcher() {
     segments[1] = locale
     return segments.join('/')
   }
+
 
   return (
     <ul className='flex gap-x-3'>

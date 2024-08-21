@@ -1,5 +1,13 @@
+
+
+
+
 import { Locale } from '@/i18n.config'
 import { getDictionary } from '@/lib/dictionary'
+
+
+
+
 
 export default async function Home({
   params: { lang }
