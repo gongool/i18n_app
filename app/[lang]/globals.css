@@ -5,8 +5,11 @@
 
 
 
-/* styles/rtl.css */
-body[dir='rtl'] {
-  direction: rtl;
-  text-align: right;
+@layer utilities {
+  .dir-ltr {
+    direction: ltr;
+  }
+  .dir-rtl {
+    direction: rtl;
+  }
 }
