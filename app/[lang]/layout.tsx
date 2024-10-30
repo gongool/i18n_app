@@ -14,10 +14,10 @@ export const metadata: Metadata = {
 }
 
 
-// Add this type to handle direction
+// Handling Direction logic
 type Direction = 'ltr' | 'rtl'
 
-// Add this helper function
+// Helper Function
 const getDirection = (locale: Locale): Direction => {
   return locale === 'ar' ? 'rtl' : 'ltr'
 }

@@ -5,8 +5,8 @@
     },
     "page": {
       "home": {
-        "title": "Welcome to NextJs i18n",
-        "description": "Internationalization in NextJs 13 App router"
+        "title": "He who has a why to live can bear almost any how",
+        "description": "Fredrick Niechzte"
       },
       "about": {
         "title": "About Us",
